@@ -1,0 +1,32 @@
+body {
+    /* background-color: #ccc; */
+    background-image: url(/FONDOS/img/background-GRIS.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;   
+    /* background-position: ;  */
+    text-align: justify;
+    vertical-align:top; 
+    text-indent: 20px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+#caja {
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgb(126, 189, 186);
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    line-height: 20px;
+    text-transform:uppercase;
+    text-decoration: overline;
+}
+
+h2{
+    color: blue;
+    background-color: beige;
+    border: 5px solid red;
+    background-image: url(/FONDOS/img/background-GRIS.jpg);
+}
