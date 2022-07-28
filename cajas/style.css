@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+body{
+    padding: 40px;
+}
+
 #caja1,
 #caja2 {
     width: 250px;
@@ -23,3 +27,27 @@ p {
     text-align: center;
     line-height: 230px;
 }
+
+.caja {
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    border: 10px solid red;
+    margin: 20px;
+    /* Margen externo */
+
+    padding: 30px;
+    /* Margen interno */
+
+    float: left;
+    /* float flotan y se recargan a la izquierda o derecha */
+}
+
+
+/* limpiar float */
+.clear{
+    float: none;
+    clear: both;
+}
+
