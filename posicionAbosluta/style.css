@@ -1,3 +1,38 @@
 .libre {
+    position: absolute;
+    top: 250px;
+    left: 290px;
     border: 3px solid black;
+    background-color: aquamarine;
+    color: black;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    z-index: 1;
+}
+
+.libre2{
+    position: absolute;
+    top: 230px;
+    left: 300px;
+    border: 3px solid black;
+    background-color: red;
+    color: black;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    z-index: 2;
+}
+
+.fija{
+    /* fixed acompaña el scroll */
+    position: fixed;
+    top: 230px;
+    border: 3px solid black;
+    background-color: blue;
+    color: black;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    z-index: 2;
 }
