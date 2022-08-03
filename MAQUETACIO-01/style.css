@@ -1,8 +1,44 @@
 * {
-    margin: 0´x;
+    margin: 0px;
     padding: 0px;
 }
 
-body {
-    
+body{
+    background-image: url(/MAQUETACIO-01/img/paven.png);
+}
+
+/* HEADER */
+
+.header{
+    min-width: 1024px;
+    width: 100%;
+    height: 250px;
+    margin: 0px auto;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header  .logo {
+    width: 770px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.header .logo img {
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    width: 140px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #70b231;
+}
+
+.header h1 a {
+    color: #70b231;
 }
