@@ -91,6 +91,8 @@ header h1 {
     line-height: 40px;
     float: left;
     border: 1px solid grey;
+    /* transition de pseudoclase :hover */
+    transition: all 300ms;
 }
 
 .nav > ul > li > a{
@@ -98,4 +100,9 @@ header h1 {
     padding: 0px 20px;
     color: white;
     text-decoration: none;
+}
+
+.nav > ul > li:hover{
+    background-color: #70b231;
+    box-shadow: 0px 0px 4px green inset;
 }
