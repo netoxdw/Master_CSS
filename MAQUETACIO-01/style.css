@@ -222,13 +222,21 @@ header h1 {
 /* Barra lateral */
 
 #aside, #frase{
-    clear: both;
+    /* clear: both; */
     width: 200px;
     float: left;
     margin: 30px;
     background-color: white;
     border: 1px solid #ccc;
     box-shadow: 0px 2px 2px #ccc;
+    font-family: sans-serif;
+}
+
+#frase{
+    clear: both;
+    /* width: 100%; */
+    /* padding: 10px; */
+    font-size: 14px;
     font-family: sans-serif;
 }
 
@@ -301,3 +309,43 @@ header h1 {
     margin: 0px auto;
     text-align: center;
 }
+
+
+/* Contenido central */
+
+
+#sections{
+    float: right;
+    width: 75%;
+    font-family: sans-serif;
+    margin-right: 20px;
+}
+
+#sections .titulo {
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: "nevis";
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px;
+    border-bottom: 1px solid #ccc;
+}
+
+#sections section{
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ccc;
+    box-shadow: 0px 0px 4px #c9c9c9;
+    color: #333;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+#sections article{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
