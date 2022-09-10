@@ -233,7 +233,7 @@ header h1 {
 }
 
 #frase{
-    clear: both;
+    /* clear: both; */
     /* width: 100%; */
     /* padding: 10px; */
     font-size: 14px;
@@ -349,3 +349,34 @@ header h1 {
     margin-bottom: 20px;
 }
 
+#sections .sticker1,
+#sections .sticker2{
+    position: absolute;
+    margin-top: -38px;
+    z-index: 0;
+}
+
+#sections .sticker2{
+    margin-left: 860px;
+}
+
+#history{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#footer{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    /* margin-top: 50px;  */
+    background-color: #333;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    box-shadow: 0px 0px 5px #666;
+    margin-top: 50px;
+}
